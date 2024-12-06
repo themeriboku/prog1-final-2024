@@ -31,9 +31,11 @@ Observe the simulation result
 - Correct result with an OO coding style as discussed in the class: 100%
 - Correct result with a bad OO coding style: 50%
 
--> Here what i do 
-i create a Ball class and it can hit a wall,
-seven_segments_proc -> screen display number between 0-9
-i have a problem that i can't display a picture
+Here what i do 
+-i create a Ball class and it can hit a wall
+- screen display number between 0-9
+- i have a problem that i can't display a picture for longer time
+
+
 
 

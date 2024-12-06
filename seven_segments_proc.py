@@ -1,6 +1,6 @@
 import turtle
 class Screen_num:
-    def __init__(self, color, ):
+    def __init__(self, color):
         self.color = color
 
     def draw(self, digit):
@@ -167,5 +167,13 @@ class Screen_num:
             turtle.left(90)
             turtle.penup()
     
-    def clear(my_turtle):
-        my_turtle.clear()
+    def clear(self):
+          turtle.clear()
+        
+    def my_delay(dt):
+        import time
+        start =  time.time()
+        while time.time() - start < dt:
+            pass
+
+    
