@@ -1,7 +1,8 @@
 import turtle
 import ball
 import random
-
+from ball import Ball
+from seven_segments_proc import Screen_num
 num_balls = 5
 turtle.speed(0)
 turtle.tracer(0)
@@ -45,6 +46,7 @@ while (True):
         ball.draw_ball(ball_color[i], ball_radius, xpos[i], ypos[i])
         ball.move_ball(i, xpos, ypos, vx, vy, dt)
         ball.update_ball_velocity(i, xpos, ypos, vx, vy, canvas_width, canvas_height, ball_radius)
+        Screen_num.draw
     turtle.update()
 
 # hold the window; close it by clicking the window close 'x' mark
